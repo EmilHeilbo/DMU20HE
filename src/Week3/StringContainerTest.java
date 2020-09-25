@@ -1,10 +1,12 @@
+package Week3;
+
 import java.util.Scanner;
 
 public class StringContainerTest {
     public static void main(String[] args) {
         System.out.println("Welcome to the string container.\n\nOptions:");
-        StringContainer stringContainer = new StringContainer();
-        stringContainer.stringArray = new String[10];
+        var stringContainer = new StringContainer();
+        stringContainer.strings = new String[10];
         Scanner scan = new Scanner(System.in);
 
         System.out.println("1: Put. This method will ask for a string, then put it in a container.");
@@ -29,7 +31,7 @@ public class StringContainerTest {
                 case 3 -> System.out.println(stringContainer.length());
                 // Extra functions, just for fun
                 case 4 -> {
-                    for (String str : stringContainer.stringArray)
+                    for (String str : stringContainer.strings)
                             if(str != null)
                                 System.out.println(str);
                 }
