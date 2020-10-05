@@ -23,7 +23,7 @@ public class QuickSort {
                 j--;
             if (i <= j) {
                 y = items[i];
-                items[i] = items [j];
+                items[i] = items[j];
                 items[j] = y;
                 i++;
                 j--;

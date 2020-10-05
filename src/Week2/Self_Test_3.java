@@ -3,9 +3,9 @@ package Week2;
 import java.util.Scanner;
 
 public class Self_Test_3 {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         // Chapter 3 - Self Test No. 9
-        for (int i=1; i<1000000; i *= 2) System.out.print(i + "\t");
+        for (int i = 1; i < 1000000; i *= 2) System.out.print(i + "\t");
 
         // Chapter 3 - Self Test No. 10
         System.out.print("ASCII Case Converter: ");

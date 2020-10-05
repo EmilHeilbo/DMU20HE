@@ -12,7 +12,7 @@ public class PrimeCalc {
 
     static boolean PrimeCheck(long x) {
         boolean isPrime = true;
-        for (long i = 2; i*i <= x; i++) {
+        for (long i = 2; i * i <= x; i++) {
             if (x % i == 0) {
                 isPrime = false;
                 break;

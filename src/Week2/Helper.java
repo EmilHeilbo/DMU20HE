@@ -3,10 +3,10 @@ package Week2;
 import java.io.IOException;
 
 public class Helper {
-    public static void main (String[] args)
-    throws IOException{
-        char input,ignore;
-        for (;;) {
+    public static void main(String[] args)
+            throws IOException {
+        char input, ignore;
+        for (; ; ) {
             do {
                 System.out.print("Which would you like help on?\n  1: if\n  2: switch\n  3: for loop\n  4: while loop\n  5: do-while loop\n  6: break\n  7: continue\n");
                 System.out.print("Please select one, or press q to quit: ");

@@ -1,4 +1,4 @@
-package calc.yukie.dev;
+package dev.yukie.calc;
 
 public class UI {
     public static void main(String[] args) {

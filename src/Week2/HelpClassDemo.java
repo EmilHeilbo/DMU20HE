@@ -3,7 +3,7 @@ package Week2;
 import java.io.IOException;
 
 class Help {
-    void helpOn (int what) {
+    void helpOn(int what) {
         switch (what) {
             default -> System.out.println("That's not a valid input...\n");
             case '1' -> System.out.println("Example:\n  if(condition) statement;\n  else if(condition) statement;\n  else statement;\n");
@@ -28,18 +28,18 @@ class Help {
         System.out.print("Please select one, or press q to quit: ");
     }
 
-    boolean isValid (int ch) {
+    boolean isValid(int ch) {
         return !(ch < '1' | ch > '7' & ch != 'q');
     }
 }
 
 public class HelpClassDemo {
-    public static void main (String[] args)
-    throws IOException {
-        char choice,ignore;
+    public static void main(String[] args)
+            throws IOException {
+        char choice, ignore;
         Help helpObj = new Help();
 
-        for (;;) {
+        for (; ; ) {
             do {
                 choice = (char) System.in.read();
                 do {

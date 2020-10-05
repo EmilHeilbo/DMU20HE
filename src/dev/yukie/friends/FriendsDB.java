@@ -1,4 +1,5 @@
-package friends.yukie.dev;
+package dev.yukie.friends;
 
 public class FriendsDB {
+
 }

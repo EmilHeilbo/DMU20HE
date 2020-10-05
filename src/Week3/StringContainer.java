@@ -14,7 +14,7 @@ public class StringContainer {
     public String get(int i) {
         return (i < strings.length && i >= 0) ? strings[i] : null;  //Returns null if 'i' is out of scope.
     }
-    
+
     public int length() {
         return count;
     }

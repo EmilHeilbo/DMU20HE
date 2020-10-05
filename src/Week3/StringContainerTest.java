@@ -14,7 +14,7 @@ public class StringContainerTest {
         System.out.println("3: Length. This method will return the amount of strings currently in use in the array.");
         System.out.println("4: Prints all used strings in array, in sequence.");
         EXIT:
-        for (;;) {
+        for (; ; ) {
             System.out.print("Please select which method you'd like to use, or press 0 to quit: ");
             int input = scan.nextInt();
             scan.nextLine();  //Catch LF character so it doesn't cause issues.
@@ -32,8 +32,8 @@ public class StringContainerTest {
                 // Extra functions, just for fun
                 case 4 -> {
                     for (String str : stringContainer.strings)
-                            if(str != null)
-                                System.out.println(str);
+                        if (str != null)
+                            System.out.println(str);
                 }
                 case 0 -> {
                     break EXIT;
